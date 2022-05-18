@@ -29,131 +29,171 @@
             <div>
                 <center>
                     <form action="form.html" method="post">
-                        <div class="formcontrol" >
+                        <div class="formcontrol">
                             <label for="name">First name:</label>
-                            <input type="text" id="name" class="formcontrol1"
-                                placeholder="Enter your Firstname" required><br>
+                            <input type="text" id="name" class="formcontrol1" placeholder="Enter your Firstname"
+                                required><br>
+                            <br>
 
                             <label for="name">Last name:</label>
-                            <input type="text" id="name" class="formcontrol2"
-                                placeholder="Enter your Lastname" required><br>
+                            <input type="text" id="name" class="formcontrol2" placeholder="Enter your Lastname"
+                                required><br>
+                            <br>
 
                             <label for="name">Father's name:</label>
-                            <input type="text" id="name" class="formcontrol3"
-                                placeholder="Enter your Fathher's name" required><br>
+                            <input type="text" id="name" class="formcontrol3" placeholder="Enter your Father's name"
+                                required><br>
+                            <br>
 
                             <label for="name">DOB:</label>
-                            <input type="date" id="name" class="formcontrol4" placeholder="Enter your DOB"
-                                required><br>
+                            <input type="date" id="name" class="formcontrol4" placeholder="Enter your DOB" required><br>
+                            <br>
 
                             <label for="name">Mobile no.:</label>
-                            <input type="number" id="name" class="formcontrol5"
-                                placeholder="Enter your mob. no." required><br>
+                            <input type="number" id="name" step="10" class="formcontrol5" placeholder="Enter your mob. no."
+                                required><br>
+                            <br>
 
                             <label for="name">Email:</label>
                             <input type="email" id="name" class="formcontrol6" placeholder="Enter your Email"
                                 required><br>
+                            <br>
 
                             <label for="name">Address:</label>
-                            <input type="text" id="name" class="formcontrol7"
-                                placeholder="Enter your Address" required><br>
+                            <input type="text" id="name" class="formcontrol7" placeholder="Enter your Address"
+                                required><br>
+                            <br>
 
                             <select class="formcontrol8">
-                                
+
                                 <option name="Select your role">Select your role</option>
                                 <option value="Student">Student</option>
                                 <option value="employee">Employee</option>
                                 <option value="Business man">Business man</option>
                                 <option value="Prefer not to say">Prefer not to say</option>
-                        
+
                             </select>
                         </div>
-                        <div class="form-group">
-                            <ul>
+                        <hr>
+                        <div>
 
 
-                                <p id="">Gender</p>
-                                </li>
-                                <label for="">
-                                    <input type="radio" name="Gender" value="Male" class="inputradio">Male
-                                </label>
 
+                            <p>Gender</p>
+
+                            <label for="">
+                                <input type="radio" name="Gender" value="Male">Male
+                            </label>
+
+                            <br>
+
+                            <label>
+                                <input type="radio" name="Gender" value="Female">Female
+                            </label>
+
+                            <br>
+
+                            <label>
+                                <input type="radio" name="Gender" value="Other">Other
+                            </label>
+
+                            <hr>
+
+
+                            <p>Are you physically challenged</p>
+
+                            <label >
+                                <input type="radio" name="physically challenged" value="Yes" >Yes
+                            </label>
+
+                            <br>
+
+                            <label>
+                                <input type="radio" name="physically challenged" value="No" 
+                                    checked>No
+                            </label>
+                            <hr>
+
+
+                            <p>Your Qualification</p>
+
+                            <label>
+                                <input type="radio" name=" Qualification" value="UG"  checked>U.G.
+                            </label>
+
+                            <br>
+
+                            <label>
+                                <input type="radio" name=" Qualification" value="PG">P.G.
                                 <br>
-
-                                <label for="">
-                                    <input type="radio" name="Gender" value="Female" class="inputradio">Female
-                                </label>
-
                                 <br>
+                            </label>
 
-                                <label for="">
-                                    <input type="radio" name="Gender" value="Other" class="inputradio">Other
-                                </label>
-
-
-                                <p id="">Are you physically challenged</p>
-                                </li>
-                                <label for="">
-                                    <input type="radio" name="physically challenged" value="Yes" class="inputradio">Yes
-                                </label>
-
-                                <br>
-
-                                <label for="">
-                                    <input type="radio" name="physically challenged" value="No" class="inputradio"
-                                        checked>No
-                                </label>
+                            <label>Degree Name</label>
+                            <input type="text" placeholder="Enter your degree name here." style="border-radius: 6px; height:20px;">
 
 
-                                <p id="">Your Qualification</p>
-                                </li>
-                                <label for="">
-                                    <input type="radio" name=" Qualification" value="UG" class="inputradio" checked>U.G.
-                                </label>
-
-                                <br>
-
-                                <label for="">
-                                    <input type="radio" name=" Qualification" value="PG" class="inputradio">P.G.
-                                </label>
-                            </ul>
+                            <hr>
 
                             <div class="form-group">
-                                <P id="quest">Which Languages do you know?</P>
-                                <label for="">
+                                <P>Which Languages do you know?</P>
+                                <label>
                                     <input type="checkbox" name="prefer" class="checkbox" value="languages">Hindi
                                     </lebal>
 
-                                    <label for="">
+                                    <label>
                                         <input type="checkbox" name="prefer" class="checkbox" value="languages">English
                                         </lebal>
 
-                                        <label for="">
+                                        <label >
                                             <input type="checkbox" name="prefer" class="checkbox"
                                                 value="languages">Japanese
                                             </lebal>
 
-                                            <label for="">
+                                            <label>
                                                 <input type="checkbox" name="prefer" class="checkbox"
                                                     value="languages">Other
                                                 </lebal>
+                                                <br>
+                                                <br>
+
+                                                <div class="form-group">
+                                                    <P id="quest">Which types of vehical you can drive?</P>
+                                                    <label>
+                                                        <input type="checkbox" name="prefer" class="checkbox" value="vehical">Bike
+                                                        </lebal>
+                    
+                                                        <label>
+                                                            <input type="checkbox" name="prefer" class="checkbox" value="vehical">Car
+                                                            </lebal>
+                    
+                                                            <label>
+                                                                <input type="checkbox" name="prefer" class="checkbox"
+                                                                    value="vehical">Truck
+                                                                </lebal>
+                    
+                                                                <label >
+                                                                    <input type="checkbox" name="prefer" class="checkbox"
+                                                                        value="vehical">Other
+                                                                    </lebal>
 
 
 
                             </div>
-
+                            <hr>
                             <br>
-
                             <div class="form-group">
                                 <p>Please give your feedback</p>
-                                <textarea name="feedback" id="feedback"
-                                    placeholder="Enter your feedback here."></textarea>
+                                <textarea name="feedback"  placeholder="Enter your feedback here."
+                                    style="border-radius: 6px; background-color: lightseagreen; font-family: Verdana, Geneva, Tahoma, sans-serif;"></textarea>
 
                             </div>
 
 
                         </div>
-                        <input type="submit" value="Submit">
+                        <div class="submit">
+                        <input type="submit" value="Submit" style="background-color:dodgerblue; color:black; border-radius: 7px; height:40px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: large;">
+                        </div>
                     </form>
                 </center>
             </div>

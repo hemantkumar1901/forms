@@ -23,13 +23,15 @@
 }
 
 .formcontrol{
-
+   
+width: 100%;
+border-radius: 6px;
     
  
 }
 
 .formcontrol1{
-    height: 20px;
+    height: 20px;    
     border-radius: 6px;
 }
 
@@ -40,6 +42,7 @@
 
 .formcontrol3{
     height: 20px;
+   
     border-radius: 6px;
 }
 
@@ -55,20 +58,35 @@
 
 .formcontrol6{
     height: 20px;
+    width: 40%;
     border-radius: 6px;
 }
 
 .formcontrol7{
     height: 20px;
+    width: 50%;
     border-radius: 6px;
 }
 
 .formcontrol8{
-    height: 20px;
+    height: 30px;
+    width: 50%;
     border-radius: 6px;
+    background-color: lightseagreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-group{
 
     border-radius: 10px;
 }
+
+
+input[name="prefer"]{
+    accent-color: red;
+}
+
+input[type="radio"]{
+    accent-color: green;
+}
+
