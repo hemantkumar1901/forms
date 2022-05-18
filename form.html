@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body style="background-color:darkslategrey ;">
+    <center>
+        <div class="container">
+            <div>
+                <header class="header">
+                    <br>
+                    <center>
+                        <h1 id="title">Survey Form</h1>
+                    </center>
+                    <br>
+
+
+                </header>
+                <br>
+            </div>
+            <div>
+                <center>
+                    <form action="form.html" method="post">
+                        <div class="formcontrol" >
+                            <label for="name">First name:</label>
+                            <input type="text" id="name" class="formcontrol1"
+                                placeholder="Enter your Firstname" required><br>
+
+                            <label for="name">Last name:</label>
+                            <input type="text" id="name" class="formcontrol2"
+                                placeholder="Enter your Lastname" required><br>
+
+                            <label for="name">Father's name:</label>
+                            <input type="text" id="name" class="formcontrol3"
+                                placeholder="Enter your Fathher's name" required><br>
+
+                            <label for="name">DOB:</label>
+                            <input type="date" id="name" class="formcontrol4" placeholder="Enter your DOB"
+                                required><br>
+
+                            <label for="name">Mobile no.:</label>
+                            <input type="number" id="name" class="formcontrol5"
+                                placeholder="Enter your mob. no." required><br>
+
+                            <label for="name">Email:</label>
+                            <input type="email" id="name" class="formcontrol6" placeholder="Enter your Email"
+                                required><br>
+
+                            <label for="name">Address:</label>
+                            <input type="text" id="name" class="formcontrol7"
+                                placeholder="Enter your Address" required><br>
+
+                            <select class="formcontrol8">
+                                
+                                <option name="Select your role">Select your role</option>
+                                <option value="Student">Student</option>
+                                <option value="employee">Employee</option>
+                                <option value="Business man">Business man</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
+                        
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <ul>
+
+
+                                <p id="">Gender</p>
+                                </li>
+                                <label for="">
+                                    <input type="radio" name="Gender" value="Male" class="inputradio">Male
+                                </label>
+
+                                <br>
+
+                                <label for="">
+                                    <input type="radio" name="Gender" value="Female" class="inputradio">Female
+                                </label>
+
+                                <br>
+
+                                <label for="">
+                                    <input type="radio" name="Gender" value="Other" class="inputradio">Other
+                                </label>
+
+
+                                <p id="">Are you physically challenged</p>
+                                </li>
+                                <label for="">
+                                    <input type="radio" name="physically challenged" value="Yes" class="inputradio">Yes
+                                </label>
+
+                                <br>
+
+                                <label for="">
+                                    <input type="radio" name="physically challenged" value="No" class="inputradio"
+                                        checked>No
+                                </label>
+
+
+                                <p id="">Your Qualification</p>
+                                </li>
+                                <label for="">
+                                    <input type="radio" name=" Qualification" value="UG" class="inputradio" checked>U.G.
+                                </label>
+
+                                <br>
+
+                                <label for="">
+                                    <input type="radio" name=" Qualification" value="PG" class="inputradio">P.G.
+                                </label>
+                            </ul>
+
+                            <div class="form-group">
+                                <P id="quest">Which Languages do you know?</P>
+                                <label for="">
+                                    <input type="checkbox" name="prefer" class="checkbox" value="languages">Hindi
+                                    </lebal>
+
+                                    <label for="">
+                                        <input type="checkbox" name="prefer" class="checkbox" value="languages">English
+                                        </lebal>
+
+                                        <label for="">
+                                            <input type="checkbox" name="prefer" class="checkbox"
+                                                value="languages">Japanese
+                                            </lebal>
+
+                                            <label for="">
+                                                <input type="checkbox" name="prefer" class="checkbox"
+                                                    value="languages">Other
+                                                </lebal>
+
+
+
+                            </div>
+
+                            <br>
+
+                            <div class="form-group">
+                                <p>Please give your feedback</p>
+                                <textarea name="feedback" id="feedback"
+                                    placeholder="Enter your feedback here."></textarea>
+
+                            </div>
+
+
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </center>
+            </div>
+            <center>
+                <br>
+                <footer class="footer">
+                    <br>
+                    <h3>Thank you</h3>
+
+                </footer>
+            </center>
+        </div>
+    </center>
+</body>
+
+</html>

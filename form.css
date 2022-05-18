@@ -1,0 +1,74 @@
+.container{
+    width: 60%;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px 15px 15px 15px;
+    background-color: antiquewhite;
+
+
+}
+
+
+.header{
+    border-radius: 15px 15px 0px 0px;
+    background-color:lightseagreen
+    
+
+}
+
+.footer{
+    height: 90px;
+    border-radius: 0px 0px 15px 15px;
+    background-color:lightseagreen
+}
+
+.formcontrol{
+
+    
+ 
+}
+
+.formcontrol1{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol2{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol3{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol4{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol5{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol6{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol7{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.formcontrol8{
+    height: 20px;
+    border-radius: 6px;
+}
+
+.form-group{
+
+    border-radius: 10px;
+}
